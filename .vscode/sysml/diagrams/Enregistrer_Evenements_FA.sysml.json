@@ -1,0 +1,260 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "tbi": {
+      "afv": {
+        "layout": {
+          "tbi::Enregistrer_Evenements": {
+            "x": 22,
+            "y": 22,
+            "parentKey": null,
+            "w": 483.5,
+            "h": 1754
+          },
+          "tbi::Enregistrer_Evenements/__initial__": {
+            "x": 210.5,
+            "y": 662,
+            "parentKey": "tbi::Enregistrer_Evenements",
+            "w": 12,
+            "h": 12
+          },
+          "tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::Enregistrer_Evenements": {
+            "x": 131,
+            "y": 886,
+            "parentKey": "tbi::Enregistrer_Evenements",
+            "w": 171,
+            "h": 58
+          },
+          "tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::decide0": {
+            "x": 170.5,
+            "y": 1026,
+            "parentKey": "tbi::Enregistrer_Evenements",
+            "w": 92,
+            "h": 48
+          },
+          "tbi::Enregistrer_Evenements/__final__": {
+            "x": 208.5,
+            "y": 1156,
+            "parentKey": "tbi::Enregistrer_Evenements",
+            "w": 16,
+            "h": 16
+          },
+          "tbi::Enregistrer_Evenements::boutonAppuye": {
+            "x": 98.5,
+            "y": 1534,
+            "parentKey": "tbi::Enregistrer_Evenements",
+            "w": 171,
+            "h": 58
+          },
+          "tbi::Enregistrer_Evenements::annulation": {
+            "x": 293.5,
+            "y": 1534,
+            "parentKey": "tbi::Enregistrer_Evenements",
+            "w": 168,
+            "h": 58
+          },
+          "tbi::Enregistrer_Evenements::autreItem": {
+            "x": 98.5,
+            "y": 1674,
+            "parentKey": "tbi::Enregistrer_Evenements",
+            "w": 168,
+            "h": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "succession:tbi::Enregistrer_Evenements/__initial__->tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::Enregistrer_Evenements:[boutonAppuye]": {
+            "caption": {
+              "x": 185,
+              "y": 709,
+              "width": 107,
+              "height": 18,
+              "lines": [
+                "[boutonAppuye]"
+              ],
+              "text": "[boutonAppuye]",
+              "source": {
+                "x": 238.5,
+                "y": 696
+              },
+              "target": {
+                "x": 238.5,
+                "y": 908
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 238.5,696 L 238.5,908",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 238.5,
+              "y": 696
+            },
+            "targetPoint": {
+              "x": 238.5,
+              "y": 908
+            },
+            "label": {
+              "x": 238.5,
+              "y": 802
+            },
+            "points": [
+              {
+                "x": 238.5,
+                "y": 696
+              },
+              {
+                "x": 238.5,
+                "y": 908
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::Enregistrer_Evenements->tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::decide0": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 238.5,966 L 238.5,1048",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 238.5,
+              "y": 966
+            },
+            "targetPoint": {
+              "x": 238.5,
+              "y": 1048
+            },
+            "label": {
+              "x": 238.5,
+              "y": 1007
+            },
+            "points": [
+              {
+                "x": 238.5,
+                "y": 966
+              },
+              {
+                "x": 238.5,
+                "y": 1048
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::decide0->tbi::Enregistrer_Evenements/__final__:[annulation]": {
+            "caption": {
+              "x": 191,
+              "y": 1109,
+              "width": 95,
+              "height": 18,
+              "lines": [
+                "[annulation]"
+              ],
+              "text": "[annulation]",
+              "source": {
+                "x": 238.5,
+                "y": 1096
+              },
+              "target": {
+                "x": 238.5,
+                "y": 1178
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 238.5,1096 L 238.5,1178",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 238.5,
+              "y": 1096
+            },
+            "targetPoint": {
+              "x": 238.5,
+              "y": 1178
+            },
+            "label": {
+              "x": 238.5,
+              "y": 1137
+            },
+            "points": [
+              {
+                "x": 238.5,
+                "y": 1096
+              },
+              {
+                "x": 238.5,
+                "y": 1178
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::decide0->tbi::Enregistrer_Evenements/tbi::Enregistrer_Evenements::Enregistrer_Evenements:[autreItem]": {
+            "caption": {
+              "x": 99.19999999999999,
+              "y": 1063,
+              "width": 89,
+              "height": 18,
+              "lines": [
+                "[autreItem]"
+              ],
+              "text": "[autreItem]",
+              "source": {
+                "x": 192.5,
+                "y": 1072
+              },
+              "target": {
+                "x": 153,
+                "y": 937
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "left",
+            "targetHandle": "left",
+            "path": "M 192.5,1072 L 112,1072 Q 104,1072 104,1064 L 104,945 Q 104,937 112,937 L 153,937",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 192.5,
+              "y": 1072
+            },
+            "targetPoint": {
+              "x": 153,
+              "y": 937
+            },
+            "label": {
+              "x": 104,
+              "y": 1024.25
+            },
+            "points": [
+              {
+                "x": 192.5,
+                "y": 1072
+              },
+              {
+                "x": 104,
+                "y": 1072
+              },
+              {
+                "x": 104,
+                "y": 937
+              },
+              {
+                "x": 153,
+                "y": 937
+              }
+            ],
+            "corner": 8
+          }
+        }
+      }
+    }
+  }
+}

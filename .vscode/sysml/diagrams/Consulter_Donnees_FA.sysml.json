@@ -1,0 +1,404 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "tbi": {
+      "afv": {
+        "layout": {
+          "tbi::Consulter_Donnees_Constructeur": {
+            "x": 18.470400541552593,
+            "y": 22,
+            "parentKey": null,
+            "w": 635.813014445193,
+            "h": 1536
+          },
+          "tbi::Consulter_Donnees_Constructeur/__initial__": {
+            "x": 273.5295994584474,
+            "y": 672,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 12,
+            "h": 12
+          },
+          "tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Demander_Acces_Donnees": {
+            "x": 194.02959945844742,
+            "y": 766,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 171,
+            "h": 58
+          },
+          "tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Verifier_Autorisation": {
+            "x": 195.52959945844742,
+            "y": 906,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 168,
+            "h": 58
+          },
+          "tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Recuperer_Donnees": {
+            "x": 16,
+            "y": 1214.1623346374922,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 168,
+            "h": 58,
+            "placedByHand": true
+          },
+          "tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Afficher_Donnees": {
+            "x": 438.3439551613721,
+            "y": 1210.795069816537,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 168,
+            "h": 58,
+            "placedByHand": true
+          },
+          "tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::decisionAcces": {
+            "x": 203.52959945844742,
+            "y": 1046,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 152,
+            "h": 48
+          },
+          "tbi::Consulter_Donnees_Constructeur/__final__": {
+            "x": 271.1829617816117,
+            "y": 1232.1210803492534,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 16,
+            "h": 16,
+            "placedByHand": true
+          },
+          "tbi::Consulter_Donnees_Constructeur::boutonConsulter": {
+            "x": 25.529599458447407,
+            "y": 1316,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 191,
+            "h": 58
+          },
+          "tbi::Consulter_Donnees_Constructeur::accesAutorise": {
+            "x": 240.52959945844742,
+            "y": 1316,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 177,
+            "h": 58
+          },
+          "tbi::Consulter_Donnees_Constructeur::annulation": {
+            "x": 25.529599458447407,
+            "y": 1456,
+            "parentKey": "tbi::Consulter_Donnees_Constructeur",
+            "w": 168,
+            "h": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "succession:tbi::Consulter_Donnees_Constructeur/__initial__->tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Demander_Acces_Donnees:[boutonConsulter]": {
+            "caption": {
+              "x": 235,
+              "y": 719,
+              "width": 126,
+              "height": 18,
+              "lines": [
+                "[boutonConsulter]"
+              ],
+              "text": "[boutonConsulter]",
+              "source": {
+                "x": 298,
+                "y": 706
+              },
+              "target": {
+                "x": 298,
+                "y": 788
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 298,706 L 298,788",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 298,
+              "y": 706
+            },
+            "targetPoint": {
+              "x": 298,
+              "y": 788
+            },
+            "label": {
+              "x": 298,
+              "y": 747
+            },
+            "points": [
+              {
+                "x": 298,
+                "y": 706
+              },
+              {
+                "x": 298,
+                "y": 788
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Demander_Acces_Donnees->tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Verifier_Autorisation": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 298,846 L 298,928",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 298,
+              "y": 846
+            },
+            "targetPoint": {
+              "x": 298,
+              "y": 928
+            },
+            "label": {
+              "x": 298,
+              "y": 887
+            },
+            "points": [
+              {
+                "x": 298,
+                "y": 846
+              },
+              {
+                "x": 298,
+                "y": 928
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Verifier_Autorisation->tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::decisionAcces": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 298,986 L 298,1068",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 298,
+              "y": 986
+            },
+            "targetPoint": {
+              "x": 298,
+              "y": 1068
+            },
+            "label": {
+              "x": 298,
+              "y": 1027
+            },
+            "points": [
+              {
+                "x": 298,
+                "y": 986
+              },
+              {
+                "x": 298,
+                "y": 1068
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::decisionAcces->tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Recuperer_Donnees:[accesAutorise]": {
+            "caption": {
+              "x": 105.5,
+              "y": 1083,
+              "width": 113,
+              "height": 18,
+              "lines": [
+                "[accesAutorise]"
+              ],
+              "text": "[accesAutorise]",
+              "source": {
+                "x": 222,
+                "y": 1092
+              },
+              "target": {
+                "x": 118.47040054155259,
+                "y": 1236.1623346374922
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "left",
+            "targetHandle": "top",
+            "path": "M 222,1092 L 126.47,1092 Q 118.47,1092 118.47,1100 L 118.47,1236.162",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 222,
+              "y": 1092
+            },
+            "targetPoint": {
+              "x": 118.47040054155259,
+              "y": 1236.1623346374922
+            },
+            "label": {
+              "x": 118.47040054155259,
+              "y": 1112.3163675895223
+            },
+            "points": [
+              {
+                "x": 222,
+                "y": 1092
+              },
+              {
+                "x": 118.47040054155259,
+                "y": 1092
+              },
+              {
+                "x": 118.47040054155259,
+                "y": 1236.1623346374922
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::decisionAcces->tbi::Consulter_Donnees_Constructeur/__final__:[not accesAutorise]": {
+            "caption": {
+              "x": 277.3,
+              "y": 1129,
+              "width": 138,
+              "height": 18,
+              "lines": [
+                "[not accesAutorise]"
+              ],
+              "text": "[not accesAutorise]",
+              "source": {
+                "x": 298,
+                "y": 1116
+              },
+              "target": {
+                "x": 297.6533623231643,
+                "y": 1254.1210803492534
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 298,1116 L 298,1235.948 Q 298,1236.121 297.827,1236.121 L 297.827,1236.121 Q 297.653,1236.121 297.653,1236.294 L 297.653,1254.121",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 298,
+              "y": 1116
+            },
+            "targetPoint": {
+              "x": 297.6533623231643,
+              "y": 1254.1210803492534
+            },
+            "label": {
+              "x": 298,
+              "y": 1185.2338590130446
+            },
+            "points": [
+              {
+                "x": 298,
+                "y": 1116
+              },
+              {
+                "x": 298,
+                "y": 1236.1210803492534
+              },
+              {
+                "x": 297.6533623231643,
+                "y": 1236.1210803492534
+              },
+              {
+                "x": 297.6533623231643,
+                "y": 1254.1210803492534
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::decisionAcces->tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::Afficher_Donnees": {
+            "sourceHandle": "right",
+            "targetHandle": "top",
+            "path": "M 374,1092 L 532.814,1092 Q 540.814,1092 540.814,1100 L 540.814,1232.795",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 374,
+              "y": 1092
+            },
+            "targetPoint": {
+              "x": 540.8143557029247,
+              "y": 1232.795069816537
+            },
+            "label": {
+              "x": 527.8047127597308,
+              "y": 1092
+            },
+            "points": [
+              {
+                "x": 374,
+                "y": 1092
+              },
+              {
+                "x": 540.8143557029247,
+                "y": 1092
+              },
+              {
+                "x": 540.8143557029247,
+                "y": 1232.795069816537
+              }
+            ],
+            "corner": 8
+          },
+          "succession:tbi::Consulter_Donnees_Constructeur/tbi::Consulter_Donnees_Constructeur::decisionAcces->tbi::Consulter_Donnees_Constructeur/__final__:[annulation]": {
+            "caption": {
+              "x": 179.25,
+              "y": 1117,
+              "width": 95,
+              "height": 18,
+              "lines": [
+                "[annulation]"
+              ],
+              "text": "[annulation]",
+              "source": {
+                "x": 260,
+                "y": 1104
+              },
+              "target": {
+                "x": 289.6533623231643,
+                "y": 1262.1210803492534
+              },
+              "lineStyle": "orthogonal",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom:0.250",
+            "targetHandle": "left",
+            "path": "M 260,1104 L 260,1254.121 Q 260,1262.121 268,1262.121 L 289.653,1262.121",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 260,
+              "y": 1104
+            },
+            "targetPoint": {
+              "x": 289.6533623231643,
+              "y": 1262.1210803492534
+            },
+            "label": {
+              "x": 260,
+              "y": 1197.8872213362088
+            },
+            "points": [
+              {
+                "x": 260,
+                "y": 1104
+              },
+              {
+                "x": 260,
+                "y": 1262.1210803492534
+              },
+              {
+                "x": 289.6533623231643,
+                "y": 1262.1210803492534
+              }
+            ],
+            "corner": 8
+          }
+        }
+      }
+    }
+  }
+}
