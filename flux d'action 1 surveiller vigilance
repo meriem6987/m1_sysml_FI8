@@ -1,25 +1,27 @@
-package tbi {
+package antiSomnolence {
     private import ScalarValues::Boolean;
 
     action surveillerVigilance {
-        attribute camera : Boolean;
-        attribute on : Boolean;
-        attribute off : Boolean;
-        attribute ouvert : Boolean;
-        attribute ferme : Boolean;
-        action VerifierNiveauYeux;
-        action EnvoyerAlerte;
+        attribute contactEtabli : Boolean;
+        attribute arretMoteur : Boolean;
+        attribute visageDetecte : Boolean;
+        attribute analyseValidee : Boolean;
+
+        action initialiserCapteurIR;
+        action capturerFluxVisage;
+        action calculerPERCLOS;
+
+        merge merge0;
         decide decide0;
-        decide decide1;
 
         first start;
-        succession start if camera then decide0;
-            if off then done;
-            if on
-                then VerifierNiveauYeux;
-        succession decide1;
-            if ouvert then VerifierNiveauYeux;
-            if ferme then EnvoyerAlerte then done;
-        then done;
+        succession start if contactEtabli then merge0;
+        then initialiserCapteurIR;
+        then decide decide0;
+            if arretMoteur then done;
+            if visageDetecte
+                then capturerFluxVisage;
+        succession capturerFluxVisage if analyseValidee then calculerPERCLOS;
+        then merge0;
     }
 }
