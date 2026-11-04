@@ -1,7 +1,6 @@
-package siegeHaptique {
+package supportHaptique {
 
     private import ScalarValues::Boolean;
-
     package parts {
         part def Conducteur;
         part def GestionnaireDeFlotte;
@@ -12,7 +11,6 @@ package siegeHaptique {
     }
 
     private import siegeHaptique::parts::*;
-
     part def Contexte {
         part conducteur : Conducteur;
         part gestionnaire : GestionnaireDeFlotte;
