@@ -1,0 +1,19 @@
+package antiSomnolence {
+    private import antiSomnolence::parts::*;
+
+    package sequences {
+        occurrence declencherAlerte {
+            part capteur : CapteurIR;
+            part systeme : SystemeAntiSomnolence;
+            part actionneur : ActionneurVibrant;
+            part siege : SiegeHaptique;
+            part conducteur : Conducteur;
+
+            message detecterSomnolence from capteur to systeme;
+            message evaluerSeuil from systeme to systeme;
+            message declencherPreAlerte from systeme to actionneur;
+            message vibrerAssise from actionneur to siege;
+            message ressentirVibration from siege to conducteur;
+        }
+    }
+}
