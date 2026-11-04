@@ -1,0 +1,53 @@
+package supportHaptiqueAmovible {
+
+    private import ScalarValues::Boolean;
+
+    package parts {
+        /* acteurs */
+        part def Conducteur;
+        part def GestionnaireDeFlotte;
+        part def ModuleDeDetection;
+
+        /* contexte / système */
+        part def SupportHaptique;
+        part def BoitierDetection;
+    }
+
+    package useCases {
+        private import supportHaptiqueAmovible::parts::*;
+
+        actor conducteur : Conducteur;
+        actor gestionnaireDeFlotte : GestionnaireDeFlotte;
+        actor moduleDeDetection : ModuleDeDetection;
+
+        /* Cas d'utilisation : Conducteur */
+        use case declencherVibration {
+            ref actor moduleDeDetection;
+        }
+
+        use case recevoirAlerteVibratoire {
+            ref actor conducteur;
+            include declencherVibration;
+        }
+
+        use case reglerIntensite {
+            ref actor conducteur;
+        }
+
+        use case rechargerSupport {
+            ref actor conducteur;
+        }
+
+        /* Cas d'utilisation : Gestionnaire de flotte */
+        use case appairerAuBoitier;
+
+        use case poserOuRetirerSupport {
+            ref actor gestionnaireDeFlotte;
+            include appairerAuBoitier;
+        }
+
+        use case consulterEtatSupport {
+            ref actor gestionnaireDeFlotte;
+        }
+    }
+}
