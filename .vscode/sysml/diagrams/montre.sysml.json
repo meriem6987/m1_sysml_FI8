@@ -1,0 +1,69 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "tbi::parts": {
+      "gv": {
+        "gvViews": {
+          "group": {
+            "layout": {
+              "tbi::parts::Enseignant": {
+                "x": 8,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "tbi::parts::Etudiant": {
+                "x": 128,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "tbi::parts::TableauBlancInteractif": {
+                "x": 8,
+                "y": 82,
+                "parentKey": null,
+                "collapsedW": 171,
+                "collapsedH": 58
+              },
+              "tbi::parts::VideoProjecteur": {
+                "x": 200,
+                "y": 82,
+                "parentKey": null,
+                "collapsedW": 123,
+                "collapsedH": 58
+              },
+              "tbi::parts::SmartPhone": {
+                "x": 8,
+                "y": 156,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "tbi::parts::Stylet": {
+                "x": 128,
+                "y": 156,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "tbi::parts::Souris": {
+                "x": 248,
+                "y": 156,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              }
+            },
+            "ports": {},
+            "edgeRoutes": {},
+            "edgeAnchors": {},
+            "edgeGeometry": {}
+          }
+        }
+      }
+    }
+  }
+}
