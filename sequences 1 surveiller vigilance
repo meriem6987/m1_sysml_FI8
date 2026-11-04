@@ -1,0 +1,17 @@
+package antiSomnolence {
+    private import antiSomnolence::parts::*;
+
+    package sequences {
+        occurrence surveillerVigilance {
+            part conducteur : Conducteur;
+            part busCAN : BusCAN;
+            part capteur : CapteurIR;
+            part systeme : SystemeAntiSomnolence;
+
+            message demarrerContact from conducteur to busCAN;
+            message initialiserSysteme from busCAN to systeme;
+            message capturerVisage from capteur to systeme;
+            message analyserPERCLOS from systeme to systeme;
+        }
+    }
+}
