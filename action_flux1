@@ -19,7 +19,7 @@ package tbi {
                 then VerifierNiveauYeux;
         succession decide1;
             if ouvert then VerifierNiveauYeux;
-            if ferme then EnvoyerAlerte;
+            if ferme then EnvoyerAlerte then done;
         then done;
     }
 }
