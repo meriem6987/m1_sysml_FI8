@@ -8,8 +8,7 @@ package tbi {
 
         action Demander_Acces_Donnees;
         action Verifier_Autorisation;
-        action Recuperer_Donnees;
-        action Afficher_Donnees;
+        action Consulter_Donnees;
 
         decide decisionAcces;
 
@@ -24,14 +23,16 @@ package tbi {
         then decide decisionAcces;
 
             if accesAutorise
-                then Recuperer_Donnees;
+                then Consulter_Donnees;
+
 
             if not accesAutorise
                 then done;
 
-        then Afficher_Donnees;
 
         if annulation
             then done;
+
+        succession Consulter_Donnees if annulation then done; 
     }
 }
